@@ -1,0 +1,106 @@
+/* AdminOrder.css */
+
+.admin-orders-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .admin-orders-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-restaurant-select-container {
+    margin-bottom: 20px;
+  }
+  
+  .admin-restaurant-select-heading {
+    font-size: 28px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .admin-restaurant-select-dropdown {
+    width: 327px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px rgba(3, 41, 252, 0.1);
+    outline: none;
+    margin: 0 215px;
+  }
+  
+  .admin-orders-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-order-item {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .admin-order-item.pending {
+    border-color: #070606;
+  }
+  .admin-order-item.completed {
+    border-color: rgb(38, 193, 38);
+  }
+  .admin-order-item.cancelled {
+    border-color: red;
+  }
+  
+  .admin-order-id {
+    font-weight: bold;
+  }
+  
+  .admin-order-status {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .view-details-link {
+    display: inline-block;
+    margin-top: 5px;
+    color: #3988dc;
+    text-decoration: none;
+  }
+  
+  .view-details-link:hover {
+    text-decoration: underline;
+  }
+  
+  .admin-order-actions {
+    margin-top: 10px;
+  }
+  
+  .admin-accept-button, .admin-cancel-button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .admin-accept-button {
+    background-color: #4fb767;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  .admin-cancel-button {
+    background-color: #dc4654;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  .admin-accept-button:hover, .admin-cancel-button:hover {
+    opacity: 0.9;
+  }
+  

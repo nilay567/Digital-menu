@@ -1,0 +1,74 @@
+/* Menu.css */
+
+/* Container styles */
+.menu-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align content */
+  }
+  
+  /* Button styles */
+  .create-menu-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-menu-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Form container styles */
+  .form-menu-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    text-align: left; /* Ensure form elements are left-aligned */
+  }
+  
+  .form-menu-container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form-menu-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-menu-container input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-menu-container input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .form-menu-container button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-menu-container button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  

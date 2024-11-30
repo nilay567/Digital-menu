@@ -1,0 +1,234 @@
+.MenuCardContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Restaurant selection styles */
+.menu-restaurant-select {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.menu-restaurant-select h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.menu-select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-restaurant-select-dropdown {
+  width: 320px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-right: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.get-menu-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #337697;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.get-menu-button:hover {
+  background-color: #1c5978;
+}
+
+/* Menu styles */
+.restaurant-menu-container {
+  margin-top: 20px;
+  position: relative;
+}
+
+.restaurant-menu {
+  text-align: center;
+}
+
+.restaurant-menu h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.restaurant-menu-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: #d2e4ed;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s, transform 0.3s;
+  width: 280px;
+}
+
+.menu-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.food {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.remove-item-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #337697;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-item-button:hover {
+  background-color: #1c5978;
+}
+
+/* Add Item button */
+.add-item-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #337697;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-item-button:hover {
+  background-color: #1c5978;
+}
+
+/* Go to cart button styles */
+.go_to_cart_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.go_to_cart_button a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #337697;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.go_to_cart_button a:hover {
+  background-color: #1c5978;
+}
+
+.cart_count {
+  background: #1e4598;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+.modal-content label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.modal-content button {
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+  .menu-restaurant-select-dropdown {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .get-menu-button {
+    width: 100%;
+  }
+
+  .menu-item {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .restaurant-menu-list {
+    flex-direction: column;
+  }
+
+  .add-item-button {
+    width: 100%;
+  }
+}

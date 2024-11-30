@@ -1,0 +1,44 @@
+.OrderList {
+  padding: 20px;
+}
+
+.OrderList h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.OrderList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.order-item.completed {
+  background-color: #d4edda;
+}
+
+.order-item.cancelled {
+  background-color: #f8d7da;
+}
+
+.order-item button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.order-item button:hover {
+  opacity: 0.8;
+}
+
+.order-item button:disabled {
+  cursor: not-allowed;
+}

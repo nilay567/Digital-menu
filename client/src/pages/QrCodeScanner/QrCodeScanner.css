@@ -1,0 +1,52 @@
+/* QrCodeScanner.css */
+.qrCodeScannerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 500px;
+}
+
+.qrCodeScannerContainer h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.qrReaderWrapper {
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  border-radius: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.qrReaderWrapper video {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.qrCodeScannerContainer p {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .qrCodeScannerContainer {
+    padding: 1rem;
+  }
+
+  .qrCodeScannerContainer h2 {
+    font-size: 1.5rem;
+  }
+
+  .qrCodeScannerContainer p {
+    font-size: 0.9rem;
+  }
+}

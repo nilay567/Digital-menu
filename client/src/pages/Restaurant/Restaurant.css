@@ -1,0 +1,52 @@
+/* Restaurant.css */
+
+.restaurant-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.restaurant-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.restaurant-list li {
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.restaurant-list li:hover {
+  transform: translateY(-5px);
+}
+
+.restaurant-list li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 20px;
+}
+
+.restaurant-list li a:hover {
+  background-color: #f0f0f0;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.location {
+  color: #888;
+  font-size: 1rem;
+}
+
+.id {
+  color: #555;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,48 @@
+.reorder-item-list {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .reorder-item-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  .reorder-item-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .reorder-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .reorder-item:last-child {
+    border-bottom: none;
+  }
+  
+  .reorder-item-name {
+    flex: 1;
+  }
+  
+  .reorder-item-quantity {
+    flex: 0 0 50px;
+    text-align: center;
+  }
+  
+  .reorder-item-price {
+    flex: 0 0 80px;
+    text-align: right;
+  }
+  
+  .reorder-total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
